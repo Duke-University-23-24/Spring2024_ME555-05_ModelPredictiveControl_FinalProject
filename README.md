@@ -1,11 +1,10 @@
 # Spring2024_ME555-05_ModelPredictiveControl_FinalProject  
-Athre Hollakal, Ziyao Yin, Nicholas Morrison**
-
+**Athre Hollakal, Ziyao Yin, Nicholas Morrison**
 
 
 **Discritize using Euler's Methods:**
-$
-x = \hat{x} + T_S f(\hat{x}, u) \\
+
+x = $\hat{x} + T_S f(\hat{x}, u)$
 x = I \hat{x} + T_S (A_c \hat{x} + B_c u + D) \\
 I \hat{x} + T_S A_c \hat{x} + T_S B_c u + T_S D \\
 x = (I. + T_S A_c) \hat{x} + (T B_c) u + T_S D \\
