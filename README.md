@@ -3,13 +3,14 @@
 
 
 **Discritize using Euler's Methods:**
-
-$ x = \hat{x} + T_S f(\hat{x}, u)$ 
-x = I \hat{x} + T_S (A_c \hat{x} + B_c u + D) \\
-I \hat{x} + T_S A_c \hat{x} + T_S B_c u + T_S D \\
-x = (I. + T_S A_c) \hat{x} + (T B_c) u + T_S D \\
-T_S = 0.2 \\
-$
+$$
+x = \hat{x} + T_S f(\hat{x}, u) <br>
+x = I \hat{x} + T_S (A_c \hat{x} + B_c u + D) <br>
+I \hat{x} + T_S A_c \hat{x} + T_S B_c u + T_S D <br>
+x = (I. + T_S A_c) \hat{x} + (T B_c) u + T_S D <br>
+T_S = 0.2 <br>
+$$
+<br>
 where
 $
 A_c = \begin{bmatrix} \frac{1000}{100*V_e} & 0 & \frac{-1000}{100} & 0 & 0 \\ 0 & \frac{1000}{100*V_e} & 0 & 0 & \frac{-1000}{100^2} \\ 0&0&0&1&0 \\ 0&0&0&0&0 \\ 0&0&0&0&0 \end{bmatrix} 
