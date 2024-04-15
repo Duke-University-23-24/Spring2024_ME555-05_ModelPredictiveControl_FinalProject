@@ -11,7 +11,7 @@ $$x = (I. + T_S A_c) \hat{x} + (T B_c) u + T_S D$$
 $$T_S = 0.2$$
 where
 
-$$A_c = \begin{bmatrix} \frac{1000}{100*V_e} & 0 & \frac{-1000}{100} & 0 & 0 \\\ 0 & \frac{1000}{100*V_e} & 0 & 0 & \frac{-1000}{100^2} \\\ 0&0&0&1&0 \\\ 0&0&0&0&0 \\\ 0&0&0&0&0 \end{bmatrix} $$
+$$A_c = \begin{bmatrix} \frac{1000}{100*V_e} & 0 & \frac{-1000}{100} & 0 & 0 \\\ 0 & \frac{1000}{100*V_e} & 0 & 0 & \frac{-1000}{100^2} \\\ 0&0&0&1&0 \\\ 0&0&0&0&0 \\\ 0&0&0&0&0 \end{bmatrix}$$
 
 $$B_c = \begin{bmatrix} 0  &  \frac{1000}{100} \\\ \frac{1}{100}   & 0 \\\ 0  & 0 \\\ 0   & \frac{1000*L}{I_z} \\\ -\frac{1}{V_e}  & 0 \end{bmatrix}$$
 
