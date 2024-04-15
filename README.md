@@ -13,7 +13,7 @@ where
 
 $$A_c = \begin{bmatrix} \frac{1000}{100*V_e} & 0 & \frac{-1000}{100} & 0 & 0 \\ 0 & \frac{1000}{100*V_e} & 0 & 0 & \frac{-1000}{100^2} \\ 0&0&0&1&0 \\ 0&0&0&0&0 \\ 0&0&0&0&0 \end{bmatrix} $$
 
-$$B_c = \begin{bmatrix} 0 && \frac{1000}{100} \\ \frac{1}{100} && 0 \\ 0 && 0 \\ 0 && \frac{1000*L}{I_z} \\ -\frac{1}{V_e} && 0 \end{bmatrix}$$
+$$B_c = \begin{bmatrix} 0  \frac{1000}{100} \\\ \frac{1}{100}  0 \\\ 0 0 \\\ 0  \frac{1000*L}{I_z} \\\ -\frac{1}{V_e} 0 \end{bmatrix}$$
 
 
 $$x = (I + T_S \begin{bmatrix} \frac{1000}{100*V_e} & 0 & \frac{-1000}{100} & 0 & 0 \\ 0 & \frac{1000}{100*V_e} & 0 & 0 & \frac{-1000}{100^2} \\ 0&0&0&1&0 \\ 0&0&0&0&0 \\ 0&0&0&0&0 \end{bmatrix} ) \hat{x} + (T_S \begin{bmatrix} 0 && \frac{1000}{100} \\ \frac{1}{100} && 0 \\ 0 && 0 \\ 0 && \frac{1000*L}{I_z} \\ -\frac{1}{V_e} && 0 \end{bmatrix}) \begin{bmatrix} U_1 \\ U_2 \end{bmatrix} + T_S D$$
